@@ -1,11 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./styles.css";
 
 const RangeSlider = ({ label, onChange, value, min, max }) => {
-  // useEffect(() => {
-  //   onChange(value);
-  // }, []);
-
   return (
     <div className="rangeSlider">
       <p>{label}</p>
